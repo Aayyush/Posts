@@ -15,7 +15,7 @@ build:
           sync: 
             manual:
                 - src: 'src/**/*.js'
-                  des: .
+                  dest: .
         - image: aagupt/comments
           context: comments
           docker:
@@ -23,7 +23,7 @@ build:
           sync: 
             manual:
                 - src: '*.js'
-                  des: .
+                  dest: .
         - image: aagupt/event-bus
           context: event-bus
           docker:
@@ -31,7 +31,7 @@ build:
           sync: 
             manual:
                 - src: '*.js'
-                  des: .
+                  dest: .
         - image: aagupt/moderation
           context: moderation
           docker:
@@ -39,7 +39,7 @@ build:
           sync: 
             manual:
                 - src: '*.js'
-                  des: .
+                  dest: .
         - image: aagupt/posts
           context: posts
           docker:
@@ -47,7 +47,7 @@ build:
           sync: 
             manual:
                 - src: '*.js'
-                  des: .
+                  dest: .
         - image: aagupt/query
           context: query
           docker:
@@ -55,4 +55,4 @@ build:
           sync: 
             manual:
                 - src: '*.js'
-                  des: .
+                  dest: .
